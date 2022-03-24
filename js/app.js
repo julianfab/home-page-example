@@ -74,6 +74,7 @@
             divError.appendChild(errorElement);
         } else {
             divError.classList.add('hidden');
+            divPhotos.innerHTML = '';
             addPhotos(photos);
         }
     }
