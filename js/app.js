@@ -127,7 +127,6 @@
         if (letter === 'Enter') {
             let input = searchInput.value;
             let value = input.replace(/\s+/g, '+');
-            console.log({ value });
             getPhotosBy(value);
             divPopupSearch.classList.remove('active');
         }
