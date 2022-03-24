@@ -14,6 +14,7 @@
     let queryInitial = 'all';
     // * Elements
     const searchBtn = document.querySelector('#search-btn');
+    const searchInputBtn = document.querySelector('#search-input-btn');
     const showMoreBtn = document.querySelector('#show-more');
     const divFloatMenu = document.querySelector('.menu-btns');
     const divPopupSearch = document.querySelector('#popup-search');
@@ -116,6 +117,13 @@
     })
     showMoreBtn.addEventListener('click', () => {
         showMore();
+    })
+
+    searchInputBtn.addEventListener('click', () => {
+        let input = searchInput.value;
+        let value = input.replace(/\s+/g, '+');
+        getPhotosBy(value);
+        divPopupSearch.classList.remove('active');
     })
 
     divClosePopup.addEventListener('click', () => {

@@ -96,10 +96,21 @@ header {
     z-index: 1;
 }
 #popup-search .container-popup{
+    display: flex;
+    flex-direction: row;
     position: relative;
     max-width: 500px;
     margin: auto;
     z-index: 2;
+}
+
+#search-input-btn {
+    cursor: pointer;
+}
+
+#popup-search .container-popup .icon-search:before{
+    margin-top: 7px;
+    margin-left: 10px;
 }
 
 @media (min-width: 768px){
