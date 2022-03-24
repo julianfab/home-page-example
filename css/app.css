@@ -71,17 +71,14 @@ section{
     text-align: center;
     font-size: 50px;
     margin-top: -50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-
-
 
 .hidden {
     display: none;
     visibility: hidden;
 }
-
-/* !!OTRASECCI */
-
 
 footer {
     display: flex;
