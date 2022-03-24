@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PruebaTita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+    <div class="menu-float">
+        <input type="checkbox" id="menu-check">
+        <div class="menu-btns">
+            <a id="all-btn" class="active">All</a>
+            <a id="branding-btn">Branding</a>
+            <a id="web-btn">Web</a>
+            <a id="photography-btn">Photography</a>
+            <a id="apps-btn">Apps</a>
+        </div>
+        <div class="menu-btn">
+            <label for="menu-check" class="icon-menu"></label>
+        </div>
+    </div>
+    <header id="main-header">
+        <div class="container">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="assets/img/logo.png" alt="Header Logo" title="Header Logo">
+                </a>
+            </div>
+            <div class="menu-navbar">
+                <a id="all-btn" class="active">All</a>
+                <a id="branding-btn">Branding</a>
+                <a id="web-btn">Web</a>
+                <a id="photography-btn">Photography</a>
+                <a id="apps-btn">Apps</a>
+                <label id="search-btn" class="icon-search"></label>
+            </div>
+            <div id="popup-search" class="">
+                <div class="close-popup"></div>
+                <div class="container-popup">
+                    <input type="search" id="search-input" class="search-input" autocomplete="off"
+                        placeholder="Search image : Press enter to search">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="landing">
+            <div class="container">
+                <h1>EXPLORE BEYOND HORIZON</h1>
+                <p>Magna mundi refferentur quo, no rebum dignissim qui.
+                    <br>
+                    Per quodsi accusata id, agam labores.
+                </p>
+                <a href="#content" class="white-btn">VIEW OUR WORK</a>
+            </div>
+        </section>
+
+        <section id="content">
+            <div class="container">
+                <div class="content-menu">
+                    <a id="all-btn" class="active">All</a>
+                    <a id="branding-btn">Branding</a>
+                    <a id="web-btn">Web</a>
+                    <a id="photography-btn">Photography</a>
+                    <a id="apps-btn">Apps</a>
+                </div>
+                <div class="grid-container">
+                    <!-- <figure><img src="https://picsum.photos/900/500.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/900.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/600.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/900.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/800.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/500.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/700.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/900.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/800.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/500.jpg" alt="" class="grid-item"></figure>
+                    <figure><img src="https://picsum.photos/900/400.jpg" alt="" class="grid-item"></figure> -->
+                </div>
+
+                <div class="show-more">
+                    <a id="show-more" class="primary-btn">
+                        Show Me More
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="error" class="">
+            <div class="container">
+                <div class="error-message hidden"></div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="all-rights-reserved">
+                <span>
+                    &copy; 2016 - <b class="text-bold">Sneak</b> All Right Reserved
+                </span>
+            </div>
+            <div class="social-media">
+                <a href="" class="icon-facebook"></a>
+                <a href="" class="icon-twitter"></a>
+                <a href="" class="icon-gplus"></a>
+                <a href="" class="icon-youtube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@import url(float-menu-btn.css);
+@import url(header.css);
+@import url(landing.css);
+@import url(content.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+:root {
+    --primary-color: #FF5672;
+}
+
+
+section{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.container{
+    width: 96%;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+@media (min-width:1224px){
+    .container{
+        width: 1110px;
+    }
+}
+
+.text-bold{
+    color: var(--primary-color);
+}
+
+.white-btn{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #FC758C;
+    background-color: #fff;
+    border: 1px solid #fff;
+    transition: background-color 500ms ease;
+}
+
+.white-btn:hover{
+    color: #fff;
+    background-color: #FC758C;
+}
+
+.primary-btn {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: background-color 500ms ease;
+}
+
+.primary-btn:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.error-message{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -50px;
+}
+
+
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/* !!OTRASECCI */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    text-align: center;
+    row-gap: 300px;
+    color: #C1CFD5;
+    margin-bottom: 40px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color:#C1CFD5;
+    font-size: 18px;
+}
+
+.all-rights-reserved{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
