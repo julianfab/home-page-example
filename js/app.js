@@ -123,8 +123,8 @@
     })
 
     searchInput.addEventListener('keydown', (e) => {
-        const letter = e.key;
-        if (letter === 'Enter') {
+        const letter = e.wich || e.keyCode || 0;
+        if (letter === 13) {
             let input = searchInput.value;
             let value = input.replace(/\s+/g, '+');
             getPhotosBy(value);
